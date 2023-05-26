@@ -1,1 +1,1 @@
-# Math-Projects
+# Cubic Splines
