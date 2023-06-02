@@ -1,5 +1,6 @@
 # Linear Algebra Application: Cubic Splines
 Convert random points into a continuous, piecewise curve using linear algebra.
+Requires Python 3, Numpy, and Matplotlib.
 
 This program uses numpy arrays to create a system of linear equations based on a specified number of randomly located points in the x-y plane. The solution is a vector whose entries are the coefficients of cubic polynomials. These polynomials are graphed over each interval to form a smooth curve. The 1st and 2nd derivatives of the cubic polynomials are equal at the intersections of adjacent curves. This ensures that the final curve is continuous, and there are enough linear equations to solve the system.
 
